@@ -1,0 +1,276 @@
+/* RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+
+  padding: 0;
+
+  outline: 0;
+
+  font-size: 100%;
+
+  vertical-align: baseline;
+
+  background: transparent;
+
+  height: auto;
+
+  border-top-width: 0;
+
+  border-bottom-width: 0;
+
+  border-left-width: 0;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  height: 1px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: white;
+  background-position: center center;
+}
+
+/* RESET */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500;600&display=swap");
+
+/* start */
+
+/* header */
+body {
+  /* background-color: #435b66; */
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-color: #2d4356;
+  padding: 20px;
+  color: #fad1b1;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+.logo a span {
+  color: #f6b17a;
+}
+#navbar {
+  display: flex;
+}
+#navbar p a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 40px;
+}
+
+/* herro  section */
+#herro {
+  padding-top: 10px;
+  /* padding-bottom: 30px; */
+  background-color: #435b66;
+}
+#herro .text {
+  margin-top: 200px;
+}
+#herro p {
+  font-size: 30px;
+  font-weight: bold;
+}
+#herro p span {
+  color: #f6b17a;
+}
+#herro .text .name {
+  color: #f5a668;
+}
+#herro .text .npm {
+  color: #fad1b1;
+}
+/* herro end */
+
+/* about  start */
+#about {
+  background-color: #f9d4aa;
+  padding: auto;
+  height: 400px;
+}
+#about h1 {
+  font-size: 30px;
+  /* margin-top: 20px; */
+  text-align: center;
+  color: #2d4356;
+  font-weight: bold;
+  padding-top: 80px;
+}
+#about .desc {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-top: 5px;
+  padding: 5px;
+}
+#about .desc p {
+  color: #435b66;
+  font-weight: semi-bold;
+}
+#about .desc span a {
+  text-decoration: none;
+  color: #7077a1;
+  font-weight: bold;
+}
+
+/* corces start */
+table,
+th,
+td {
+  border: 3px solid #fad1b1;
+  width:50%;
+}
+#courses{
+  background-color: #8e9ca3;
+}
+#courses h1{
+  text-align:center;
+  font-size:30px;
+  font-weight:bold;
+  padding:10px;
+  color:#f6b17a;
+}
+#courses p{
+  text-align:center;
+  font-size:20px;
+  color:#fad1b1;
+}
+#courses .tabel-mk{
+  padding:20px;
+}
+#courses table{
+  margin:0 auto;
+  padding-top:20px;
+}
+#courses .satu{
+  font-size:24px;
+  color:#f6b17a;
+}
+#courses .dua,.tiga,.empat{
+  color:#f6b17a;
+}
+#courses tr th{
+  padding:8px;
+}
+
+/* courses end */
+
+/* fotter start */
+.footer{
+  background-color:#2d4356;
+  color:#fad1b1;
+  text-align:center;
+  padding:20px;
+}
